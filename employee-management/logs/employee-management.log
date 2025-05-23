@@ -1,0 +1,136 @@
+2025-05-23T10:59:12.617-06:00  INFO 33542 --- [employee-management] [main] .t.e.m.EmployeeManagementApplicationTest : Starting EmployeeManagementApplicationTest using Java 17.0.12 with PID 33542 (started by oscar in /Users/oscar/Documents/Technical-Test/employee-management)
+2025-05-23T10:59:12.623-06:00 DEBUG 33542 --- [employee-management] [main] .t.e.m.EmployeeManagementApplicationTest : Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-23T10:59:12.625-06:00  INFO 33542 --- [employee-management] [main] .t.e.m.EmployeeManagementApplicationTest : No active profile set, falling back to 1 default profile: "default"
+2025-05-23T10:59:23.419-06:00  WARN 33542 --- [employee-management] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-23T10:59:24.374-06:00  INFO 33542 --- [employee-management] [main] .t.e.m.EmployeeManagementApplicationTest : Started EmployeeManagementApplicationTest in 13.093 seconds (process running for 17.274)
+2025-05-23T10:59:25.175-06:00  INFO 33542 --- [employee-management] [main] c.b.t.t.e.m.s.i.EmployeeServiceImplTest  : Starting EmployeeServiceImplTest using Java 17.0.12 with PID 33542 (started by oscar in /Users/oscar/Documents/Technical-Test/employee-management)
+2025-05-23T10:59:25.176-06:00 DEBUG 33542 --- [employee-management] [main] c.b.t.t.e.m.s.i.EmployeeServiceImplTest  : Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-23T10:59:25.176-06:00  INFO 33542 --- [employee-management] [main] c.b.t.t.e.m.s.i.EmployeeServiceImplTest  : No active profile set, falling back to 1 default profile: "default"
+2025-05-23T10:59:26.005-06:00  WARN 33542 --- [employee-management] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-23T10:59:26.212-06:00  INFO 33542 --- [employee-management] [main] c.b.t.t.e.m.s.i.EmployeeServiceImplTest  : Started EmployeeServiceImplTest in 1.072 seconds (process running for 19.112)
+2025-05-23T10:59:26.257-06:00 DEBUG 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Starting request of get all register employees...
+2025-05-23T10:59:26.258-06:00  INFO 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Request Headers: [postman-token: 481056de-0e24-4c77-b368-611bc3832be3, host: localhost:9090, connection: keep-alive, accept-encoding: gzip, deflate, br, user-agent: PostmanRuntime/7.44.0, accept: */*, Content-Type: application/json;charset=UTF-8]
+2025-05-23T10:59:26.261-06:00 DEBUG 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Ending request of get all register employees OK.
+2025-05-23T10:59:26.286-06:00 DEBUG 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Starting request of add employee(s)...
+2025-05-23T10:59:26.287-06:00  INFO 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Request Headers: [postman-token: 481056de-0e24-4c77-b368-611bc3832be3, host: localhost:9090, connection: keep-alive, accept-encoding: gzip, deflate, br, user-agent: PostmanRuntime/7.44.0, accept: */*, Content-Type: application/json;charset=UTF-8]
+2025-05-23T10:59:26.288-06:00 DEBUG 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Ending request of add employee(s) OK.
+2025-05-23T10:59:26.300-06:00 DEBUG 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Starting request of delete employee by id...
+2025-05-23T10:59:26.301-06:00  INFO 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Request Headers: [postman-token: 481056de-0e24-4c77-b368-611bc3832be3, host: localhost:9090, connection: keep-alive, accept-encoding: gzip, deflate, br, user-agent: PostmanRuntime/7.44.0, accept: */*, Content-Type: application/json;charset=UTF-8]
+2025-05-23T10:59:26.304-06:00 DEBUG 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Ending request of delete employee by id [1] because not found in database.
+2025-05-23T10:59:26.323-06:00 DEBUG 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Starting request of update employee...
+2025-05-23T10:59:26.323-06:00  INFO 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Request Headers: [postman-token: 481056de-0e24-4c77-b368-611bc3832be3, host: localhost:9090, connection: keep-alive, accept-encoding: gzip, deflate, br, user-agent: PostmanRuntime/7.44.0, accept: */*, Content-Type: application/json;charset=UTF-8]
+2025-05-23T10:59:26.324-06:00 DEBUG 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Ending request of update employee because there are no registered employee with this data.
+2025-05-23T10:59:26.338-06:00 DEBUG 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Starting request of delete employee by id...
+2025-05-23T10:59:26.339-06:00  INFO 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Request Headers: [postman-token: 481056de-0e24-4c77-b368-611bc3832be3, host: localhost:9090, connection: keep-alive, accept-encoding: gzip, deflate, br, user-agent: PostmanRuntime/7.44.0, accept: */*, Content-Type: application/json;charset=UTF-8]
+2025-05-23T10:59:26.340-06:00 DEBUG 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Ending request of delete employee by id OK.
+2025-05-23T10:59:26.359-06:00 DEBUG 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Starting request of add employee(s)...
+2025-05-23T10:59:26.359-06:00  INFO 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Request Headers: [postman-token: 481056de-0e24-4c77-b368-611bc3832be3, host: localhost:9090, connection: keep-alive, accept-encoding: gzip, deflate, br, user-agent: PostmanRuntime/7.44.0, accept: */*, Content-Type: application/json;charset=UTF-8]
+2025-05-23T10:59:26.360-06:00 DEBUG 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Ending request of add employee(s) OK.
+2025-05-23T10:59:26.369-06:00 DEBUG 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Starting request of update employee...
+2025-05-23T10:59:26.369-06:00  INFO 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Request Headers: [postman-token: 481056de-0e24-4c77-b368-611bc3832be3, host: localhost:9090, connection: keep-alive, accept-encoding: gzip, deflate, br, user-agent: PostmanRuntime/7.44.0, accept: */*, Content-Type: application/json;charset=UTF-8]
+2025-05-23T10:59:26.369-06:00 DEBUG 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Ending request of update employee OK.
+2025-05-23T10:59:26.377-06:00 DEBUG 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Starting request of get all register employees...
+2025-05-23T10:59:26.377-06:00  INFO 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Request Headers: []
+2025-05-23T10:59:26.377-06:00 DEBUG 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : There are no registered employees.
+2025-05-23T10:59:26.377-06:00 DEBUG 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Ending request of get all register employees with no content.
+2025-05-23T10:59:26.387-06:00 DEBUG 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Starting request of get all register employees...
+2025-05-23T10:59:26.387-06:00  INFO 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Request Headers: [postman-token: 481056de-0e24-4c77-b368-611bc3832be3, host: localhost:9090, connection: keep-alive, accept-encoding: gzip, deflate, br, user-agent: PostmanRuntime/7.44.0, accept: */*, Content-Type: application/json;charset=UTF-8]
+2025-05-23T10:59:26.388-06:00 ERROR 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Please contact the administrator: {}
+
+java.lang.RuntimeException: null
+	at com.babel.technical.test.employee.management.service.impl.EmployeeServiceImpl.getAllEmployees(EmployeeServiceImpl.java:46) ~[classes/:na]
+	at com.babel.technical.test.employee.management.service.impl.EmployeeServiceImplTest.getAllEmployeesInternalServerErrorTest(EmployeeServiceImplTest.java:94) ~[test-classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:767) ~[junit-platform-commons-1.11.4.jar:1.11.4]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$8(TestMethodTestDescriptor.java:217) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.11.4.jar:1.11.4]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.11.4.jar:1.11.4]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.11.4.jar:1.11.4]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.11.4.jar:1.11.4]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) ~[junit-platform-launcher-1.11.4.jar:1.11.4]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) ~[junit-platform-launcher-1.11.4.jar:1.11.4]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.11.4.jar:1.11.4]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.11.4.jar:1.11.4]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.11.4.jar:1.11.4]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63) ~[junit-platform-launcher-1.11.4.jar:1.11.4]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) ~[junit5-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) ~[idea_rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) ~[junit-rt.jar:na]
+
+2025-05-23T10:59:26.460-06:00  INFO 33542 --- [employee-management] [main] c.b.t.t.e.m.c.EmployeeControllerTest     : Starting EmployeeControllerTest using Java 17.0.12 with PID 33542 (started by oscar in /Users/oscar/Documents/Technical-Test/employee-management)
+2025-05-23T10:59:26.460-06:00 DEBUG 33542 --- [employee-management] [main] c.b.t.t.e.m.c.EmployeeControllerTest     : Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-23T10:59:26.460-06:00  INFO 33542 --- [employee-management] [main] c.b.t.t.e.m.c.EmployeeControllerTest     : No active profile set, falling back to 1 default profile: "default"
+2025-05-23T10:59:27.024-06:00  WARN 33542 --- [employee-management] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-23T10:59:27.277-06:00  INFO 33542 --- [employee-management] [main] c.b.t.t.e.m.c.EmployeeControllerTest     : Started EmployeeControllerTest in 0.851 seconds (process running for 20.177)
+2025-05-23T10:59:27.707-06:00 DEBUG 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Starting request of add employee(s)...
+2025-05-23T10:59:27.707-06:00  INFO 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Request Headers: [Content-Type: application/json;charset=UTF-8, Content-Length: 173]
+2025-05-23T10:59:28.167-06:00  INFO 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : An employee with this information is already registered.
+2025-05-23T10:59:28.167-06:00 DEBUG 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Ending request of add employee(s) OK.
+2025-05-23T10:59:28.218-06:00 DEBUG 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Starting request of delete employee by id...
+2025-05-23T10:59:28.218-06:00  INFO 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Request Headers:]
+2025-05-23T10:59:28.253-06:00 DEBUG 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Ending request of delete employee by id [1] because not found in database.
+2025-05-23T10:59:28.280-06:00 DEBUG 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Starting request of update employee...
+2025-05-23T10:59:28.281-06:00  INFO 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Request Headers: [Content-Type: application/json;charset=UTF-8, Content-Length: 171]
+2025-05-23T10:59:28.295-06:00 DEBUG 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Ending request of update employee because there are no registered employee with this data.
+2025-05-23T10:59:28.324-06:00 DEBUG 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Starting request of get all register employees...
+2025-05-23T10:59:28.325-06:00  INFO 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Request Headers:]
+2025-05-23T10:59:28.349-06:00 DEBUG 33542 --- [employee-management] [main] c.b.t.t.e.m.s.impl.EmployeeServiceImpl   : Ending request of get all register employees OK.
+2025-05-23T11:17:19.455-06:00  INFO 33922 --- [employee-management] [restartedMain] .b.t.t.e.m.EmployeeManagementApplication : Starting EmployeeManagementApplication using Java 17.0.12 with PID 33922 (/Users/oscar/Documents/Technical-Test/employee-management/target/classes started by oscar in /Users/oscar/Documents/Technical-Test/employee-management)
+2025-05-23T11:17:19.460-06:00 DEBUG 33922 --- [employee-management] [restartedMain] .b.t.t.e.m.EmployeeManagementApplication : Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-23T11:17:19.462-06:00  INFO 33922 --- [employee-management] [restartedMain] .b.t.t.e.m.EmployeeManagementApplication : No active profile set, falling back to 1 default profile: "default"
+2025-05-23T11:17:23.789-06:00  WARN 33922 --- [employee-management] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-23T11:17:24.314-06:00  INFO 33922 --- [employee-management] [restartedMain] .b.t.t.e.m.EmployeeManagementApplication : Started EmployeeManagementApplication in 5.921 seconds (process running for 6.796)
